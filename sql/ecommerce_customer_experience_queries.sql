@@ -15,7 +15,7 @@ CREATE TABLE ecommerce_orders (
     order_id VARCHAR(50),
     customer_unique_id VARCHAR(50),
     order_status VARCHAR(30),
-    order_purchase_timestamp DATETIME,
+    order_purchase_timestamp VARCHAR(50),
     customer_state VARCHAR(10),
     total_price DECIMAL(10,2),
     total_freight DECIMAL(10,2),
